@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:background="#82ffffff"
         android:padding="15dp"
         android:layout_margin="30dp"
         android:orientation="vertical"
@@ -34,7 +35,13 @@
             android:text="ID 592-40-0001"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
+        <!--Button-->
+            <Button
+                android:id="@+id/btnCalculate"
+                android:textStyle="bold"
+                android:text="Calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
