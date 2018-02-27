@@ -27,6 +27,7 @@
 
         <!--TextField-->
         <EditText
+            android:id="@+id/edtmoney"
             android:hint="Fill Money In USD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -37,7 +38,8 @@
 
 
     <Button
-        android:text="fsfsdf"
+        android:id="@+id/btnExt"
+        android:text="EXC"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:layout_width="match_parent"
